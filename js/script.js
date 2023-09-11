@@ -12,7 +12,7 @@
 
 
 // 1.
-for (let i = 1; i <= 100; i++ ) {
+for (let i = 0; i < 100; i++ ) {
 
   const fizz = 'Fizz';
   const buzz = 'Buzz';
@@ -22,20 +22,20 @@ for (let i = 1; i <= 100; i++ ) {
   
   // 2.
   // 3.
-  if ( !(i % 3) & !(i % 5) ) {
+  if ( !((i + 1) % 3) && !((i + 1) % 5) ) {
     message = fizz + buzz;
     boxColor = 'bg-fizzbuzz';
   } 
-  else if ( !(i % 3) ) {
+  else if ( !((i + 1) % 3) ) {
     message = fizz;
     boxColor = 'bg-fizz';
   }
-  else if ( !(i % 5) ) {
+  else if ( !((i + 1) % 5) ) {
     message = buzz;
     boxColor = 'bg-buzz';
   }
   else {
-    message = i;
+    message = i + 1;
     boxColor = 'bg-number';
   }
 
@@ -51,3 +51,8 @@ for (let i = 1; i <= 100; i++ ) {
   boxItem.append(message);
 
 }
+
+
+
+
+
