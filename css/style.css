@@ -1,0 +1,39 @@
+/* 
+color
+#083b4c
+*/
+
+:root {
+  --bg: #083b4c ;
+  --number: #1389b2 ;
+  --fizz: #0cd6a1 ;
+  --buzz: #ffd166 ;
+  --fizzbuzz: #f0466f ;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.a-box-container {
+  margin: 0 auto;
+  max-width: 1200px;  
+  width: 80%;
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.a-box {
+  width: 80px; 
+  height: 80px;
+  background-color: var(--number);
+}
