@@ -22,15 +22,15 @@ for (let i = 1; i <= 100; i++ ) {
   
   // 2.
   // 3.
-  if ( i % 3 === 0 & i % 5 === 0 ) {
+  if ( !(i % 3) & !(i % 5) ) {
     message = fizz + buzz;
     boxColor = 'bg-fizzbuzz';
   } 
-  else if ( i % 3 === 0 ) {
+  else if ( !(i % 3) ) {
     message = fizz;
     boxColor = 'bg-fizz';
   }
-  else if ( i % 5 === 0) {
+  else if ( !(i % 5) ) {
     message = buzz;
     boxColor = 'bg-buzz';
   }
