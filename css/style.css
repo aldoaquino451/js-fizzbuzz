@@ -13,27 +13,49 @@ color
 
 body {
   background-color: var(--bg);
+  color: white;
+  text-align: center;
+  font-weight: 700;
 }
 
 h1 {
-  font-size: 100px;
   font-weight: 700;
-  color: white;
-  text-align: center;
+  font-size: 100px;
 }
 
-.a-box-container {
+.box-container {
   margin: 0 auto;
   max-width: 1200px;  
   width: 80%;
   display: flex;
-  /* justify-content: center; */
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.a-box {
+.box-item {
   width: 80px; 
   height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-item:hover {
+  opacity: 0.6;
+}
+
+.bg-fizz{
+  background-color: var(--fizz);
+}
+
+.bg-buzz{
+  background-color: var(--buzz);
+}
+
+.bg-fizzbuzz{
+  background-color: var(--fizzbuzz);
+}
+
+.bg-number{
   background-color: var(--number);
 }

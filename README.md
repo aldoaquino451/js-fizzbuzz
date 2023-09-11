@@ -9,12 +9,6 @@ ma che per:
 - i multipli di 5 stampi “Buzz”
 - i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”
 
-
-### Tips
-Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare.  
-Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo “a mano”
-
-
 #### Bonus
 
 Crea un container nel DOM , aggiungendo (attraverso la funzione `append()`) un elemento html con il numero o la stringa corretta da mostrare.  
